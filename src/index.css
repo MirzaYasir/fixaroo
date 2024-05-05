@@ -11,3 +11,62 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.custom-stepper .step-horizontal .step-title {
+  font-size: 0; /* Hide text content */
+}
+
+/* Show title text */
+.custom-stepper .step-horizontal .step-circle span {
+  display: none;
+}
+
+.card {
+  border: 1px solid #e5e5e5 !important;
+  padding: 15px;
+}
+
+.service-container, .task-container{
+  display: flex;
+  flex-wrap: wrap; 
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+.job-badge { 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  border: 1px solid #e5e5e5; 
+  border-radius: 10px; 
+  padding-left: 25px; 
+  padding-right: 25px; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  margin-right: 15px;
+}
+
+.active {
+  background: rgba(15, 19, 55, 1) !important;
+  color: white !important;
+}
+
+.service-item{
+  width: 15rem; 
+  padding: 0; 
+  margin-right: 15px;
+}
+
+.service-item-active{
+  width: 15rem; 
+  padding: 0; 
+  margin-right: 15px; 
+  border: 1px solid rgba(15, 19, 55, 1) !important;
+}
+
+.my-dropzone {
+  border: 2px dashed #cccccc;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+}
